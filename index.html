@@ -1,55 +1,76 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test Website</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #141e30;
-            color: rgb(219, 56, 56);
-            text-align: center;
-            padding: 100px 20px;
-        }
-
-        h1 {
-            font-size: 48px;
-            color: #00d4ff;
-        }
-
-        p {
-            font-size: 20px;
-            color: #cccccc;
-        }
-
-        button {
-            background-color: #00d4ff;
-            color: #141e30;
-            border: none;
-            padding: 15px 30px;
-            border-radius: 8px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #00aacc;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An International Advertising portfolio: explore the creative journey and supporting competency evidence.">
+  <title>Contents — International Advertising</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
-<body>
-
-    <h1>Hello, VS Code!</h1>
-
-    <p>This website is successfully running.</p>
-
-    <button onclick="alert('Everything works!')">
-        Test Button
-    </button>
-
+<body class="contents-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="contents-shell">
+    <header class="contents-header">
+      <h1>Contents</h1>
+      <p class="wordmark">International Advertising</p>
+    </header>
+    <main id="main">
+      <nav class="journey-grid" aria-label="The creative journey">
+        <a class="journey-link" href="brief.html">
+          <span class="stage-number" aria-hidden="true">01.</span>
+          <h2>The Brief<span class="stage-arrow" aria-hidden="true"> ↗</span></h2>
+          <ul>
+            <li>Introduction</li>
+            <li>Starting point</li>
+            <li>Objectives &amp; expectations</li>
+          </ul>
+        </a>
+        <a class="journey-link" href="discover.html">
+          <span class="stage-number" aria-hidden="true">02.</span>
+          <h2>Discover<span class="stage-arrow" aria-hidden="true"> ↗</span></h2>
+          <ul>
+            <li>Research &amp; analysis</li>
+            <li>Audience understanding</li>
+            <li>Key insights</li>
+            <li>Cultural context</li>
+          </ul>
+        </a>
+        <a class="journey-link" href="define.html">
+          <span class="stage-number" aria-hidden="true">03.</span>
+          <h2>Define<span class="stage-arrow" aria-hidden="true"> ↗</span></h2>
+          <ul>
+            <li>Brand strategy</li>
+            <li>Strategic decisions</li>
+            <li>Positioning &amp; rationale</li>
+            <li>Alternative directions</li>
+          </ul>
+        </a>
+        <a class="journey-link" href="develop.html">
+          <span class="stage-number" aria-hidden="true">04.</span>
+          <h2>Develop<span class="stage-arrow" aria-hidden="true"> ↗</span></h2>
+          <ul>
+            <li>Creative concepts</li>
+            <li>Psychology &amp; persuasion</li>
+            <li>Testing &amp; iteration</li>
+            <li>Campaign execution</li>
+          </ul>
+        </a>
+        <a class="journey-link" href="evolve.html">
+          <span class="stage-number" aria-hidden="true">05.</span>
+          <h2>Evolve<span class="stage-arrow" aria-hidden="true"> ↗</span></h2>
+          <ul>
+            <li>Evaluation &amp; feedback</li>
+            <li>Critical reflection</li>
+            <li>Competency growth</li>
+            <li>Future action plan</li>
+          </ul>
+        </a>
+      </nav>
+    </main>
+    <footer class="contents-footer">
+      <p>Explore the process</p>
+      <a class="dashboard-link" href="dashboard.html">Competency Dashboard <span aria-hidden="true">↗</span></a>
+    </footer>
+  </div>
 </body>
 </html>
