@@ -6,7 +6,9 @@ A work-in-progress assessment portfolio built with HTML, CSS and vanilla JavaScr
 
 | File | Purpose |
 | --- | --- |
-| index.html | Contents and five-stage creative journey |
+| index.html | Portfolio homepage |
+| contents.html | Contents and five-stage creative journey |
+| case-studies.html | Case studies placeholder |
 | brief.html | Starting point, objectives and learning context |
 | discover.html | Research, audiences, insights and culture |
 | define.html | Strategy, positioning and decisions |
@@ -20,7 +22,9 @@ The stages are a storytelling structure. They do not assign learning outcomes to
 
 Open index.html directly in a browser, or use VS Code's Live Server extension (right-click index.html and choose **Open with Live Server**).
 
-- Follow each of the five stage links and the separate dashboard link.
+- Test the three homepage links: Contents, Case Studies and Competency Dashboard.
+- From Contents, follow each of the five stage links and return using the Contents link.
+- Check the Home links on the inner pages.
 - Check the navigation, current-page indicator and next-stage links.
 - Resize the browser to desktop, tablet and narrow mobile widths.
 - On mobile, open the Menu; Escape closes it. Navigation remains visible when JavaScript is disabled.
@@ -37,4 +41,4 @@ Edit each page's HTML directly. Placeholder sections have stable IDs such as dis
 
 Shared styles are in assets/css/style.css. Shared mobile navigation is in assets/js/main.js. Dashboard disclosures use native HTML and do not need JavaScript.
 
-The pre-existing, empty about.html, portfolio.html and assets/js/dashboard.js files and projects directory are retained, but are not part of the seven-page navigation.
+The pre-existing, empty about.html, portfolio.html and assets/js/dashboard.js files and projects directory are retained, but are not part of the main navigation.
