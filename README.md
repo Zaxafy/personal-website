@@ -42,3 +42,9 @@ Edit each page's HTML directly. Placeholder sections have stable IDs such as dis
 Shared styles are in assets/css/style.css. Shared mobile navigation is in assets/js/main.js. Dashboard disclosures use native HTML and do not need JavaScript.
 
 The pre-existing, empty about.html, portfolio.html and assets/js/dashboard.js files and projects directory are retained, but are not part of the main navigation.
+
+### Stylesheet caching
+
+Each page includes a shared version tag on its stylesheet URL (assets/css/style.css?v=be1bcf6d42aa). This makes browsers request the current CSS after an update instead of reusing an older cached copy. When changing the stylesheet, update this tag consistently across all nine pages and publish the HTML and CSS together. The tag is a cache key, not a separate filename.
+
+If the live page still shows an old layout immediately after publishing, wait for the GitHub Pages deployment to finish and hard-refresh once with Ctrl+F5.
