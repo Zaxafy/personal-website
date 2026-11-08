@@ -45,12 +45,14 @@ The pre-existing, empty about.html, portfolio.html and assets/js/dashboard.js fi
 
 ### Stylesheet caching
 
-Each page includes a shared version tag on its stylesheet URL (assets/css/style.css?v=8573fbdd0c73). This makes browsers request the current CSS after an update instead of reusing an older cached copy. When changing the stylesheet, update this tag consistently across all nine pages and publish the HTML and CSS together. The tag is a cache key, not a separate filename.
+Each page includes a shared version tag on its stylesheet URL (assets/css/style.css?v=cd04a6ee5beb). This makes browsers request the current CSS after an update instead of reusing an older cached copy. When changing the stylesheet, update this tag consistently across all nine pages and publish the HTML and CSS together. The tag is a cache key, not a separate filename.
 
 If the live page still shows an old layout immediately after publishing, wait for the GitHub Pages deployment to finish and hard-refresh once with Ctrl+F5.
 
 ## Responsive presentation
 
-The homepage uses both viewport width and height to size the headline and spacing. On laptops, the full introduction and navigation fit at normal browser zoom; phones retain a readable scrolling layout. Contents uses a full-height layout with five columns on desktop, two on tablet and one on mobile.
+The homepage uses both viewport width and height to size the headline and spacing. On laptops, the hero introduction and navigation fit at normal browser zoom; phones retain a readable scrolling layout. Contents uses a full-height layout with five columns on desktop, two on tablet and one on mobile.
 
 The homepage holds the How to explore guidance. Every main page has an IA SVG favicon, a descriptive browser title, and a 180 ms entrance fade that is disabled when reduced motion is preferred. There are no navigation delays or JavaScript animation dependencies.
+
+The homepage continues below the hero with the Built from the ground up section and a responsive technical breakdown. The About this website scroll cue links to this section; smooth scrolling is enabled only when reduced motion is not requested.
